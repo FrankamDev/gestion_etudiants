@@ -1,4 +1,4 @@
-@extends('layouts.clean')
+@extends('layouts.clean', ['cssCalss' => 'page-signup'])
 @section('title', 'Inscription')
 @section('childContent')
     <main>

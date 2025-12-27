@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
-
 @section('title', 'Home page')
 @section('content')
+    <x-card>
+        <x-slot name="title">Card title 1</x-slot>
+        Card Content 1
+        <x-slot name="footer">Card footer</x-slot>
+    </x-card>
     <!-- Home Slider -->
     <section class="hero-slider">
         <!-- Carousel wrapper -->
@@ -800,4 +804,10 @@
         </section>
         <!--/ New Cars -->
     </main>
+@section('footerLinks')
+    @parent
+    <a href="#">Lien 3</a>
+    <a href="#">Lien 4</a>
+
 @endsection
+<!-- 3h26 -->

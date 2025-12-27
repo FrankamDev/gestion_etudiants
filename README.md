@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Project Name
+# 🚀 Gestion des etudiants
 
 ### A clean, scalable and professional web application
 
@@ -34,15 +34,15 @@ Elle respecte les bonnes pratiques du développement moderne et peut évoluer fa
 **Frontend**
 
 -   HTML / CSS / JavaScript
--   React / Tailwind CSS _(si applicable)_
+-   / Tailwind CSS _(si applicable)_
 
 **Backend**
 
--   Node.js / Laravel _(selon le projet)_
+-   Laravel _(selon le projet)_
 
 **Database**
 
--   PostgreSQL / MySQL / MongoDB
+-   PostgreSQL /
 
 ---
 
